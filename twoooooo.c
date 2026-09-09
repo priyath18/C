@@ -9,4 +9,4 @@ a=b;
 b=temp;
 printf("After Swapping the value of a is %d and value of b is %d",a,b);
 return 0;
-}
+}   
