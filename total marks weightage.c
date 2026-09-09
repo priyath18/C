@@ -1,12 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int pMo,mMo,total;
-    printf("Enter the obtained marks of Physics");70
-    scanf("%f",&pMo);
-    printf("Enter the obtained marks of Maths");90
-    scanf("%f",&mMo);
-    total=((30/100)*pMo+(70/100)*mMo);
-    printf("The total marks is %f",total);
+    float pMo, mMo, total;
+    
+    printf("Enter the obtained marks of Physics: ");
+    scanf("%f", &pMo);
+    
+    printf("Enter the obtained marks of Maths: ");
+    scanf("%f", &mMo);
+    
+    total = (0.30 * pMo) + (0.70 * mMo);
+    
+    printf("The total marks is: %.2f\n", total);
+    
     return 0;
 }
