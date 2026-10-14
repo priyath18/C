@@ -1,20 +1,21 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main() {
+int main(void) {
     int a[5];
+    int i;
 
-    cout << "Enter 5 numbers: ";
+    printf("Enter 5 numbers: ");
 
-    for (int i = 0; i < 5; i++) {
-        cin >> a[i];
+    for (i = 0; i < 5; i++) {
+        scanf("%d", &a[i]);
     }
 
-    cout << "Array elements: ";
+    printf("\nArray elements: ");
 
-    for (int i = 0; i < 5; i++) {
-        cout << a[i] << " ";
+    for (i = 0; i < 5; i++) {
+        printf("%d ", a[i]);
     }
 
+    printf("\n");
     return 0;
 }
